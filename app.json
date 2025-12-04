@@ -1,7 +1,7 @@
 {
   "name": "🔥🥀𝘽οꜱꜱ🥀🔥-MD",
   "description": "Javascript WhatsApp bot made by BOSS_MD Official",
-  "logo": "https://files.catbox.moe/80ntso.jpg",
+  "logo": "https://files.catbox.moe/nd6ey3.jpg",
   "keywords": ["×º𝓑𝖔𝙨𝙨º×"],
   "success_url": "/",
 
@@ -85,7 +85,7 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "MUZAMMIL_MD Official"
+      "value": "BOSS_MD Official"
 }, 
 
     "OWNER_NUMBER": {
