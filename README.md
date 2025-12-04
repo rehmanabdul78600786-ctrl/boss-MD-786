@@ -18,7 +18,7 @@ Boss-md world best devolper
 > ✨ Ultra Pro Max WhatsApp Bot — BOSS-MD ✨    
 
 <a href="https://github.com/Boss453-dev/Boss-md-Ai-BOT"><img title="Author" src="https://img.shields.io/badge/BOSS-MD-black?style=for-the-badge&logo=Github"></a>
-<a href="https://wa.me/923408576674"><img title="Contact" src="https://img.shields.io/badge/Contact-Owner-25D366?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://wa.me/923487690170"><img title="Contact" src="https://img.shields.io/badge/Contact-Owner-25D366?style=for-the-badge&logo=whatsapp"></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -49,8 +49,8 @@ Boss-md world best devolper
   <a href="https://github.com/Boss453-dev/Boss-md-Ai-BOT/fork">  
     <img src="https://img.shields.io/badge/Fork-Repo-ff00ff?style=for-the-badge&logo=github&logoColor=white" />  
   </a>  
-  <a href="https://github.com/Boss453-dev/Boss-md-Ai-BOT/stargazers">  
-    <img src="https://img.shields.io/github/stars/Boss453-dev/Boss-md-Ai-BOT?style=for-the-badge&color=gold&logo=github" />  
+  <a href="https://github.com/rehmanabdul78600786-ctrl/boss-MD-786/stargazers">  
+    <img src="https://img.shields.io/github/stars/rehmanabdul78600786-ctrl/boss-MD-786?style=for-the-badge&color=gold&logo=github" />  
   </a>
 </p>  
 <p align="center">💡 Don’t forget to <b>Fork</b> & <b>Star ⭐</b> this repo before using!</p>  
@@ -69,7 +69,7 @@ Boss-md world best devolper
 
 ## 🚀 DEPLOY NOW  
 <p align="center">  
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/bossmd9b-dotcom/BOSS-MD-">  
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/rehmanabdul78600786-ctrl/boss-MD-786">  
     <img src="https://img.shields.io/badge/Deploy-Heroku-7952B3?style=for-the-badge&logo=heroku&logoColor=white" />  
   </a>  
 </p>  
@@ -79,10 +79,10 @@ Boss-md world best devolper
 
 ## 📡 WHATSAPP CONNECTS  
 <p align="center">  
-  <a href="https://whatsapp.com/channel/0029VbBdQyRBPzjUMvx8Fb2g">  
+  <a href="https://whatsapp.com/channel/0029VbC19OTHFxP2mYyAMy1G">  
     <img src="https://img.shields.io/badge/Join-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />  
   </a>  
-  <a href="https://api.whatsapp.com/send?phone=+923408576674&text=Hello">  
+  <a href="https://api.whatsapp.com/send?phone=+923487690170&text=Hello">  
     <img src="https://img.shields.io/badge/Contact-Owner-ff0000?style=for-the-badge&logo=whatsapp&logoColor=white" />  
   </a>  
 </p>  
