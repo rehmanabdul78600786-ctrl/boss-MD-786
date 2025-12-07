@@ -782,3 +782,6 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   setTimeout(() => {
   connectToWA()
   }, 4000);
+const http = require("http");
+http.createServer((req, res) => res.end("Bot Running")).listen(process.env.PORT || 3000);
+
