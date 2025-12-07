@@ -69,7 +69,7 @@ const {
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
     if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
     
-    const sessdata = config.SESSION_ID.replace("BOSS_MD~", '');
+    const sessdata = config.SESSION_ID.replace("BOSS-MD~", '');
     try {
         // Decode base64 string
         const decodedData = Buffer.from(sessdata, 'base64').toString('utf-8');
@@ -97,7 +97,7 @@ const port = process.env.PORT || 9090;
   const conn = makeWASocket({
           logger: P({ level: 'silent' }),
           printQRInTerminal: false,
-          browser: Browsers.macOS("Firefox"),
+          browser:  ["Boss-MD", "Chrome", "1.0.0"],
           syncFullHistory: true,
           auth: state,
           version
