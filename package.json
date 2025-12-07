@@ -1,11 +1,11 @@
 {
-  "name": "ﮩ٨ـﮩﮩ٨ـ 𝑩𝑶𝑺𝑺ﮩ٨ـﮩﮩ٨ـ",
+  "name": "𝑩𝑶𝑺𝑺",
   "version": "4.5.0",
-  "description": "A WhatsApp Bot Created By ×º𝓑𝖔𝙨𝙨º×-MD",
+  "description": "A WhatsApp Bot Created By Boss-MD",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name 🔥🥀𝘽οꜱꜱ🥀🔥-MD",
-    "stop": "pm2 stop BOSS-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name 𝘽οꜱꜱ-MD",
+    "stop": "pm2 stop boss-MD",
     "restart": "pm2 restart BOSS-MD"
   },
   "dependencies": {
