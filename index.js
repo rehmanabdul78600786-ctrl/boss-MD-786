@@ -95,14 +95,14 @@ const port = process.env.PORT || 9090;
   var { version } = await fetchLatestBaileysVersion()
   
   const conn = makeWASocket({
-          logger: P({ level: 'silent' }),
-          printQRInTerminal: false,
-          browser: Browsers.Baileys("Firefox"),
-          syncFullHistory: true,
-          auth: state,
-          version
-          })
-      
+    logger: P({ level: 'silent' }),
+    printQRInTerminal: false,
+    browser: ["Boss-MD", "Chrome", "1.0.0"], //
+    syncFullHistory: true,
+    auth: state,
+    version
+});
+
   conn.ev.on('connection.update', (update) => {
   const { connection, lastDisconnect } = update
   if (connection === 'close') {
