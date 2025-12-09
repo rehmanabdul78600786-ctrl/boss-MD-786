@@ -1,7 +1,0 @@
-build:
-  docker:
-    web: Dockerfile
-
-run:
-  web: npm install -g pm2 && pm2-runtime npm -- start
-  
