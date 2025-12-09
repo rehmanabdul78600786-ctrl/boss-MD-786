@@ -13,7 +13,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Faizan-MD-BOTZ/Faizan-Ai';
+    const githubRepoURL = 'https://github.com/rehmanabdul78600786-ctrl/boss-MD-786/';
 
     try {
         // Extract username and repo name from the URL
@@ -33,15 +33,15 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send image with caption
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/ejufwa.jpg` },
+            image: { url: `https://files.catbox.moe/87emth.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363421896999345@newsletter',
-                    newsletterName: '𝐅𝐀𝐈𝐙𝐀𝐍-𝐌𝐃',
+                    newsletterJid: '120363405061777123@newsletter',
+                    newsletterName: '𝘽𝙊𝙎𝙎-𝙈𝘿',
                     serverMessageId: 143
                 }
             }
@@ -58,8 +58,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363421896999345@newsletter',
-                    newsletterName: '𝐅𝐀𝐈𝐙𝐀𝐍-𝐌𝐃',
+                    newsletterJid: '120363405061777123@newsletter',
+                    newsletterName: '𝘽𝙊𝙎𝙎-𝙈𝘿',
                     serverMessageId: 143
                 }
             }
