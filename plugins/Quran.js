@@ -59,7 +59,7 @@ ${translatedTafsirEnglish.text}`;
     await conn.sendMessage(
       from,
       {
-        image: { url: `https://files.catbox.moe/l8psgf.jpg` },
+        image: { url: `https://files.catbox.moe/cnodiy.jpg` },
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender], 
