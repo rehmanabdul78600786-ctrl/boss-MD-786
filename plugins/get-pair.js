@@ -7,7 +7,7 @@ cmd({
     react: "✅",
     desc: "Get pairing code for BOSS-MD_ bot",
     category: "download",
-    use: ".pair 923452401XXX",
+    use: ".pair 923487690XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, senderNumber, reply }) => {
     try {
@@ -16,11 +16,11 @@ cmd({
 
         // Validate phone number format
         if (!phoneNumber || phoneNumber.length < 10 || phoneNumber.length > 15) {
-            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 923452401XXX`");
+            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 923487690XXX`");
         }
 
         // Make API request to get pairing code
-        const response = await axios.get(`https://paring-site-2-0yzl.onrender.com/code?number=${encodeURIComponent(phoneNumber)}`);
+        const response = await axios.get(`https://pairing-site-boss-874t.onrender.com/pair}`);
 
         if (!response.data || !response.data.code) {
             return await reply("❌ Failed to retrieve pairing code. Please try again later.");
