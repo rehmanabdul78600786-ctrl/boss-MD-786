@@ -35,7 +35,7 @@ async (conn, mek, m, { from, sender, reply }) => {
                 forwardingScore: 1000,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: 'https://github.com/rehmanabdul78600786-ctrl/boss-MD-786?tab=readme-ov-file',
+                    newsletterJid: '120363405061777123@newsletter',
                     newsletterName: '𝐁𝐎𝐒𝐒-𝐌𝐃',
                     serverMessageId: 143
                 }
