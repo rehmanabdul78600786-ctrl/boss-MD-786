@@ -91,7 +91,7 @@ cmd({
         // 📸 Send info with stylish caption
         await sock.sendMessage(message.chat, {
             image: { url: thumb },
-            caption: `┌─⭓ *𝘽𝙊𝙎𝙎-𝙈𝘿* ⭓\n│\n│ 🎬 *${title}*\n│ ⏱ *Duration:* ${duration}\n│ 👁 *Views:* ${views}\n│ 👤 *Channel:* ${author}\n│ 📥 *Downloading video...*\n└─────────────\n\n*© 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚀𝙰𝙳𝙴𝙴𝚁 𝙰𝙸*`
+            caption: `┌─⭓ *𝘽𝙊𝙎𝙎-𝙈𝘿* ⭓\n│\n│ 🎬 *${title}*\n│ ⏱ *Duration:* ${duration}\n│ 👁 *Views:* ${views}\n│ 👤 *Channel:* ${author}\n│ 📥 *Downloading video...*\n└─────────────\n\n*© 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ꧁𓊈𒆜 𝑩𝒐𝒔𝒔-𝒎𝒅 𒆜𓊉꧂*`
         }, { quoted: message });
 
         // 🌀 Try Izumi first, fallback to Okatsu
