@@ -12,21 +12,21 @@ cmd({
 async (conn, mek, m, { from, reply, isCreator }) => {
     try {
         if (!isCreator) {
-            return reply("*📛 тнιs ιs αη σωηεя-σηℓ�? cσммαη�?!*");
+            return reply("*📛 тнιs ιs αη σωηεя-σηℓ�? cσммαη�?!*");
         }
 
         // Initial message
         const updateMsg = await conn.sendMessage(from, {
-            text: 'ιηιтιαтιηg sүsтεм υρ∂αт�?...🚀'
+            text: 'ιηιтιαтιηg sүsтεм υρ∂αт�?...🚀'
         }, { quoted: mek });
 
         // Update steps with emojis
         const updateSteps = [
             "*🔍 cнєcкιηg sүsтєм sтαтυs...*",
-            "*🛠�? ρяєραʀιηg υρ∂αт�? cσмρσηєηтs...*",
+            "*🛠�? ρяєραʀιηg υρ∂αт�? cσмρσηєηтs...*",
             "*📦 ғιηαℓιzιηg ραcкαgєs...*",
-            "*�? σρтιмιzιηg ρєʀғσʀмαηcε...*",
-            "*🔃 𝙵𝙰𝙸𝚉𝙰𝙽-𝙼𝙳 ʀєѕτατ...*",
+            "*�? σρтιмιzιηg ρєʀғσʀмαηcε...*",
+            "*🔃 𝘽𝙊𝙎𝙎-𝙈𝘿 ʀєѕτατ...*",
             "*♻️ ʀєѕτατιηg sεʀvιcεs...*"
         ];
 
@@ -50,7 +50,7 @@ async (conn, mek, m, { from, reply, isCreator }) => {
 
         // Final message before restart
         await conn.sendMessage(from, {
-            text: '- *�? ??????????? υρ∂αт�? cσмρℓєтє∂ ʀєѕτατιηg*'
+            text: '- *�? ??????????? υρ∂αт�? cσмρℓєтє∂ ʀєѕτατιηg*'
         }, { quoted: mek });
 
         // Execute restart after a short delay
@@ -60,7 +60,7 @@ async (conn, mek, m, { from, reply, isCreator }) => {
     } catch (e) {
         console.error(e);
         await conn.sendMessage(from, {
-            text: `*�? Update Failed!*\n_Error:_ ${e.message}\n\n*Try manually:*\n\`\`\`pm2 restart all\`\`\``
+            text: `*�? Update Failed!*\n_Error:_ ${e.message}\n\n*Try manually:*\n\`\`\`pm2 restart all\`\`\``
         }, { quoted: mek });
     }
 });
