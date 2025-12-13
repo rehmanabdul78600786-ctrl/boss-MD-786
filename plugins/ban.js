@@ -1,6 +1,9 @@
-// Ban command
+const { cmd } = require('../command'); // aapke bot ka command system
+const { banUser, unbanUser, banList } = require('../lib/bna');
+
 cmd({
     pattern: 'ban',
+    alias: [],
     desc: 'Ban a user from using the bot',
     category: 'owner',
     react: '🔨',
@@ -9,21 +12,21 @@ cmd({
     await banUser(conn, from, m);
 });
 
-// Unban command
 cmd({
     pattern: 'unban',
-    desc: 'Unban a user from using the bot',
+    alias: [],
+    desc: 'Unban a user',
     category: 'owner',
-    react: '🟢',
+    react: '✅',
     filename: __filename
 }, async (conn, mek, m, { from, args, reply }) => {
     await unbanUser(conn, from, m);
 });
 
-// Banlist command
 cmd({
     pattern: 'banlist',
-    desc: 'Show all banned users',
+    alias: ['banned'],
+    desc: 'List all banned users',
     category: 'owner',
     react: '📋',
     filename: __filename
