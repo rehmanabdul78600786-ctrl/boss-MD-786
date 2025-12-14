@@ -150,7 +150,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there 𝗕𝗼𝘀𝘀-𝗺𝗱 User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet BOSS-MD WhatsApp Bot.\n\n *Thanks for using FAIZAN-AI \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbC19OTHFxP2mYyAMy1G \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/bosshackes68-svg/Boss-md-\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ BOSS-HACKER ❣️ \ud83d\udda4`;
+  let up = `*Hello there 𝗕𝗼𝘀𝘀-𝗺𝗱 User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet BOSS-MD WhatsApp Bot.\n\n *Thanks for using 𝐁𝐎𝐒𝐒-𝐌𝐃 \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbC19OTHFxP2mYyAMy1G \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/bosshackes68-svg/Boss-md-\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ BOSS-HACKER ❣️ \ud83d\udda4`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/3jpeey.jpg` }, caption: up })
   }
   })
